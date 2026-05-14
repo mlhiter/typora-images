@@ -1,0 +1,57 @@
+<svg width="1400" height="820" viewBox="0 0 1400 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">mspace simplified architecture</title>
+  <desc id="desc">A simplified architecture of mspace with desktop, control plane, runtime providers, and Kubernetes validation environment.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#111827" flood-opacity="0.1"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f1f1f"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="820" rx="36" fill="#ffffff"/>
+  <rect x="46" y="46" width="1308" height="728" rx="28" fill="#f7f7f7" stroke="#dedede"/>
+  <text x="86" y="112" fill="#1f1f1f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="40" font-weight="700">mspace 简化架构</text>
+  <text x="86" y="154" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20">协作状态归 Control Plane，执行交给 Runtime，验证落到 Issue 级 Kubernetes 环境。</text>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="244" width="270" height="232" rx="20" fill="#ffffff" stroke="#dedede"/>
+    <text x="132" y="304" fill="#1f1f1f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="700">Desktop</text>
+    <text x="132" y="348" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Inbox / Issues</text>
+    <text x="132" y="382" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Agents / Projects</text>
+    <text x="132" y="416" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Clusters / Settings</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="198" width="370" height="324" rx="20" fill="#ffffff" stroke="#dedede"/>
+    <text x="510" y="258" fill="#1f1f1f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="700">Control Plane</text>
+    <text x="510" y="302" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Users / Workspaces / Members</text>
+    <text x="510" y="336" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Projects / Issues / Comments</text>
+    <text x="510" y="370" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Inbox Events / Receipts</text>
+    <text x="510" y="404" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Runtime Registry / Tasks</text>
+    <rect x="510" y="438" width="290" height="1" fill="#dedede"/>
+    <text x="510" y="474" fill="#2f5f9e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" font-weight="600">产品协作状态的权威来源</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="948" y="198" width="330" height="158" rx="20" fill="#ffffff" stroke="#dedede"/>
+    <text x="988" y="258" fill="#1f1f1f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="700">Runtime Providers</text>
+    <text x="988" y="302" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Local Runner</text>
+    <text x="988" y="336" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Team Worker / future K8s runtime</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="948" y="472" width="330" height="158" rx="20" fill="#ffffff" stroke="#dedede"/>
+    <text x="988" y="532" fill="#1f1f1f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" font-weight="700">Validation Layer</text>
+    <text x="988" y="576" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Issue Namespace</text>
+    <text x="988" y="610" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Preview URL / resources / events</text>
+  </g>
+
+  <path d="M 382 360 L 450 360" stroke="#1f1f1f" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 860 306 L 928 286" stroke="#1f1f1f" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 1113 372 L 1113 450" stroke="#1f1f1f" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 928 552 C 840 552 826 498 842 456" stroke="#1f1f1f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="86" y="690" width="1228" height="1" fill="#dedede"/>
+  <text x="86" y="728" fill="#737373" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18">边界：Control Plane 管协作和权限；Runtime 执行代码；Kubernetes 只暴露 Issue 范围内的验证环境和证据。</text>
+</svg>
